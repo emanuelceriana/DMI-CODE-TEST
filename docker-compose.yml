@@ -1,0 +1,12 @@
+version: '3'
+ 
+services:
+  weatherapp:
+    env_file:
+      - .env
+    container_name: dmi-code-test
+    restart: always
+    build: .
+    ports:
+      - 3000:3000
+    network_mode: bridge

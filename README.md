@@ -18,7 +18,7 @@
 - [x] Extensibility.
 - [x] Custom Fastify Plugin Cache.
 
-## Instalación
+## Installation
 
 ## With Docker
 
